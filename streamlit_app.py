@@ -43,4 +43,4 @@ example2 = pd.DataFrame({
 
 
 if st.button('Predict?'):
-    st.write("The model predicts that the tipping category for this listing is:", model.predict(example2)[0])
+    st.write("The model predicts that the tipping category for this listing is:", model.predict(example)[0])
