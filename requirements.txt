@@ -1,7 +1,7 @@
 #streamlit
-pandas==1.5.2
+#pandas==1.5.2
 scikit-learn
 streamlit
-#pandas
+pandas
 #scikit-learn
 #pickle
