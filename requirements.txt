@@ -1,7 +1,6 @@
 #streamlit
 #pandas==1.5.2
-distutils
-scikit-learn==1.2.0
+scikit-learn
 streamlit
 pandas
 #scikit-learn
