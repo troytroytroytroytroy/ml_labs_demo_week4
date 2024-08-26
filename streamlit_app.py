@@ -34,5 +34,13 @@ example = pd.DataFrame({
     "instant_bookable": [instant_bookable]
     })
 
+example2 = pd.DataFrame({
+    "review_scores_rating": [0.50],
+    "room_type": ["Shared room"],
+    "service_cost": ["$0.99"],
+    "instant_bookable": [0]
+    })
+
+
 if st.button('Predict?'):
-    st.write("The model predicts that the tipping category for this listing is:", model.predict(example)[0])
+    st.write("The model predicts that the tipping category for this listing is:", model.predict(example2)[0])
