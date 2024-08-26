@@ -19,7 +19,7 @@ room_type = st.radio(
     ('Shared room', 'Private room', 'Hotel room', 'Entire home/apt'))
 # service_cost: ['$0.99', '$4.99', '$2.99', '$10.99']
 service_cost = st.radio(
-    "What room type do you have?",
+    "What is the service cost of the listing?",
     ('$0.99', '$4.99', '$2.99', '$10.99'))
 # instant_bookable: 0, 1
 instant_bookable = st.radio(
